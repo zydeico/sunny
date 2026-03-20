@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ModelDownloadOnboardingView: View {
+    
     @Environment(AIModelService.self)
     private var aiModelService
 
